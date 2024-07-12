@@ -14,8 +14,9 @@
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 105px auto 305px;
+  gap: 55px;
 }
 
 .logo-icon {
@@ -26,6 +27,7 @@
 .logo:focus {
   opacity: 0.7;
 }
+
 .logo:active {
   opacity: 0.5;
 }
@@ -39,19 +41,22 @@
 }
 
 .site-navigation__link {
+  font-size: 14px;
+  line-height: 1;
   text-decoration: none;
-  color: #cacde0;
-}
-
-.site-navigation-main__link {
   color: #2f3250;
 }
 
+.site-navigation__link--decor {
+  color: #cacde0;
+}
+
 .site-navigation__link--active {
-  color: #4a5fcf;
-  text-decoration: underline 1px solid #4a5fcf;
+  color: #4d66ec;
+  text-decoration: underline 1px solid #4d66ec;
   text-underline-offset: 10px;
 }
+
 .site-navigation__link:hover,
 .site-navigation__link:focus {
   opacity: 0.7;
@@ -63,7 +68,7 @@
 
 .site-navigation__link--accent {
   text-transform: uppercase;
-  color: #f46780;
+  color: #fb0f39;
 }
 
 .user-navigation__icon-main {
@@ -91,11 +96,11 @@
   justify-content: space-between;
   gap: 10px;
   text-decoration: none;
-  color: #cacde0;
+  color: #2f3250;
 }
 
-.user-navigation-main__link {
-  color: #2f3250;
+.user-navigation__link--decor {
+  color: #cacde0;
 }
 
 .user-navigation__link:hover,
