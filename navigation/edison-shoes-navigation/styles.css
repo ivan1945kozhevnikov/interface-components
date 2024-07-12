@@ -1,3 +1,8 @@
+:root {
+  --color-light: #cacde0;
+  --color-dark: #2f3250;
+}
+
 .container {
   font-family: 'Manrope', sans-serif;
   font-size: 14px;
@@ -15,12 +20,18 @@
 
 .navigation {
   display: grid;
-  grid-template-columns: 105px auto 305px;
-  gap: 55px;
+  grid-template-columns: repeat(3, min-content);
+  gap: 65px;
 }
 
-.logo-icon {
-  color: #cacde0;
+.logo__icon {
+  width: 105px;
+  height: 40px;
+  fill: var(--color-dark);
+}
+
+.logo__icon--light {
+  fill: var(--color-light);
 }
 
 .logo:hover,
@@ -44,11 +55,11 @@
   font-size: 14px;
   line-height: 1;
   text-decoration: none;
-  color: #2f3250;
+  color: var(--color-dark);
 }
 
-.site-navigation__link--decor {
-  color: #cacde0;
+.site-navigation__link--light {
+  color: var(--color-light);
 }
 
 .site-navigation__link--active {
@@ -71,24 +82,13 @@
   color: #fb0f39;
 }
 
-.user-navigation__icon-main {
-  position: relative;
-  top: -3px;
-}
-
-.user-navigation__icon {
-  position: relative;
-  border-radius: 50%;
-  top: -3px;
-}
-
 .user-navigation {
   display: flex;
   justify-content: space-between;
   gap: 25px;
   list-style: none;
   margin: 13px 0 0;
-  padding: 0;
+  padding: 0 0 0 70px;
 }
 
 .user-navigation__link {
@@ -96,11 +96,11 @@
   justify-content: space-between;
   gap: 10px;
   text-decoration: none;
-  color: #2f3250;
+  color: var(--color-dark);
 }
 
-.user-navigation__link--decor {
-  color: #cacde0;
+.user-navigation__link--light {
+  color: var(--color-light);
 }
 
 .user-navigation__link:hover,
@@ -110,6 +110,22 @@
 
 .user-navigation__link:active {
   opacity: 0.5;
+}
+
+.user-navigation__icon-avatar {
+  position: relative;
+  border-radius: 50%;
+  top: -3px;
+}
+
+.user-navigation__link-icon {
+  width: 18px;
+  height: 16px;
+  fill: var(--color-dark);
+}
+
+.user-navigation__link-icon--light {
+  fill: var(--color-light);
 }
 
 .user-navigation__filled-favorit {
@@ -122,11 +138,7 @@
   text-align: center;
   padding-top: 2px;
   top: 52px;
-  left: 1148px;
-}
-
-.user-navigation__icon-favorit {
-  fill: #cacde0;
+  left: 1141px;
 }
 
 .user-navigation__filled-cart {
@@ -139,9 +151,5 @@
   text-align: center;
   padding-top: 2px;
   top: 52px;
-  left: 1277px;
-}
-
-.user-navigation__icon-cart {
-  fill: #cacde0;
+  left: 1268px;
 }
