@@ -23,6 +23,16 @@
   opacity: 0.5;
 }
 
+.logo__image {
+  width: 128px;
+  height: 16px;
+  fill: #353a5a;
+}
+
+.logo__image--fill {
+  fill: #fa9f42;
+}
+
 .site-navigation {
   display: flex;
   gap: 40px;
