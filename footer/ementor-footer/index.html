@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -45,12 +45,15 @@
                 d="M124.453 4.48808V6.37307C125.083 4.98177 126.265 4.28612 128 4.28612V6.91164C127.063 6.8518 126.234 7.0762 125.513 7.58485C124.807 8.07854 124.453 8.90135 124.453 10.0533V15.7083H121.966V4.48808H124.453Z"
               />
               <path
+                class="logo__image__fill"
                 d="M0 6.73684C0 3.01619 3.13401 0 7 0H21V0.842105C21 4.56276 17.866 7.57895 14 7.57895H0V6.73684Z"
               />
               <path
+                class="logo__image__fill"
                 d="M0 13.4737C0 11.1483 1.95875 9.26316 4.375 9.26316H5.25C7.183 9.26316 8.75 10.7713 8.75 12.6316C8.75 14.4919 7.183 16 5.25 16H0V13.4737Z"
               />
               <path
+                class="logo__image__fill"
                 d="M12.25 13.4737C12.25 11.1483 14.2088 9.26316 16.625 9.26316H17.5C19.433 9.26316 21 10.7713 21 12.6316C21 14.4919 19.433 16 17.5 16H12.25V13.4737Z"
               />
             </svg>
@@ -60,8 +63,8 @@
             сфере информационных технологий
           </p>
           <ul class="social footer__social">
-            <li class="social__item">
-              <a href="#" class="social__link">
+            <li>
+              <a href="#">
                 <svg
                   class="social__icon"
                   viewBox="0 0 22 22"
@@ -76,8 +79,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item">
-              <a href="#" class="social__link">
+            <li>
+              <a href="#">
                 <svg
                   class="social__icon"
                   viewBox="0 0 22 22"
@@ -92,8 +95,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item">
-              <a href="#" class="social__link">
+            <li>
+              <a href="#">
                 <svg
                   class="social__icon"
                   viewBox="0 0 22 22"
@@ -111,51 +114,59 @@
           </ul>
         </div>
         <div class="service-navigation">
-          <p class="service-navigation__category">Обучение</p>
-          <ul class="service-navigation__list">
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Курсы</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Вебинары</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Тренажеры</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Воркшопы</a>
-            </li>
-          </ul>
-          <p class="service-navigation__category">О нас</p>
-          <ul class="service-navigation__list">
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">О платформе</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Преподаватели</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Тарифы</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Отзывы</a>
-            </li>
-          </ul>
-          <p class="service-navigation__category">Контакты</p>
-          <ul class="service-navigation__list">
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Связаться с нами</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Консультация</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Реквизиты</a>
-            </li>
-            <li class="service-navigation__item">
-              <a href="#" class="service-navigation__link">Поддержка</a>
-            </li>
-          </ul>
+          <div class="service-navigation__container">
+            <p class="service-navigation__category">Обучение</p>
+            <ul class="service-navigation__list">
+              <li>
+                <a href="#" class="service-navigation__link">Курсы</a>
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Вебинары</a>
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Тренажеры</a>
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Воркшопы</a>
+              </li>
+            </ul>
+          </div>
+          <div class="service-navigation__container">
+            <p class="service-navigation__category">О нас</p>
+            <ul class="service-navigation__list">
+              <li>
+                <a href="#" class="service-navigation__link">О платформе</a>
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Преподаватели</a>
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Тарифы</a>
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Отзывы</a>
+              </li>
+            </ul>
+          </div>
+          <div class="service-navigation__container">
+            <p class="service-navigation__category">Контакты</p>
+            <ul class="service-navigation__list">
+              <li>
+                <a href="#" class="service-navigation__link"
+                  >Связаться с нами</a
+                >
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Консультация</a>
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Реквизиты</a>
+              </li>
+              <li>
+                <a href="#" class="service-navigation__link">Поддержка</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="footer__email">
           <p class="footer__email-title">Возникли вопросы?</p>
@@ -169,10 +180,16 @@
       </div>
       <div class="footer__site-info">
         <p class="footer__copyright">E-Mentor © 2021 Все права защищены</p>
-        <a href="#" class="footer__link">
-          Политика обработки персональных данных
-        </a>
-        <a href="#" class="footer__link"> Публичная оферта </a>
+        <ul class="footer__info-list">
+          <li>
+            <a href="#" class="footer__link">
+              Политика обработки персональных данных
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer__link"> Публичная оферта </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
