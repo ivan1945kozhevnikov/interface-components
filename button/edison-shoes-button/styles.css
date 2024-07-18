@@ -19,24 +19,30 @@
 }
 
 .button--primary {
-  font-size: 16px;
   color: #fcfcfc;
   background-color: #4d66ec;
   border: 1px solid #4d66ec;
-  padding: 20px 34px;
 }
 
 .button--outlined {
-  font-size: 14px;
   color: #2f3250;
   background-color: transparent;
   border: 1px solid #4d66ec;
-  padding: 13px 27px;
 }
 
 .button--large {
+  font-size: 16px;
+  padding: 20px 34px;
+}
+
+.button--medium {
   font-size: 14px;
-  padding: 13px 32px;
+  padding: 13px 26px;
+}
+
+.button--md {
+  font-size: 14px;
+  padding: 13px 31px;
 }
 
 .button--small {
