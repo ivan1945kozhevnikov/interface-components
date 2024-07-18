@@ -95,9 +95,11 @@
 
 .user-navigation__link {
   display: flex;
+  align-items: center;
   gap: 10px;
   text-decoration: none;
   color: var(--color-dark);
+  margin: auto;
 }
 
 .user-navigation__link--light {
@@ -111,10 +113,6 @@
 
 .user-navigation__link:active {
   opacity: 0.5;
-}
-
-.user-navigation__title {
-  margin: auto;
 }
 
 .user-navigation__icon-avatar {
