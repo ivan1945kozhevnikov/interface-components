@@ -113,6 +113,10 @@
   opacity: 0.5;
 }
 
+.user-navigation__title {
+  padding: 1px 0 0 0;
+}
+
 .user-navigation__icon-avatar {
   position: relative;
   border-radius: 50%;
