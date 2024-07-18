@@ -1,9 +1,11 @@
 .button {
   display: inline-block;
   font-family: 'Manrope', sans-serif;
+  line-height: 1;
+  font-weight: 500;
   text-decoration: none;
   text-align: center;
-  border: 1px solid #4d66ec;
+  box-sizing: border-box;
   cursor: pointer;
 }
 
@@ -17,33 +19,34 @@
 }
 
 .button--primary {
+  font-size: 16px;
   color: #fcfcfc;
   background-color: #4d66ec;
+  border: 1px solid #4d66ec;
+  padding: 20px 34px;
 }
 
 .button--outlined {
+  font-size: 14px;
   color: #2f3250;
   background-color: transparent;
+  border: 1px solid #4d66ec;
+  padding: 13px 27px;
 }
 
 .button--large {
   font-size: 14px;
-  line-height: 1;
-  font-weight: 500;
-  padding: 13px 26px;
+  padding: 13px 32px;
 }
 
 .button--small {
   font-size: 14px;
-  line-height: 1;
-  font-weight: 500;
   padding: 13px 20px;
 }
 
 .link {
   font-family: 'Manrope', sans-serif;
   font-size: 16px;
-  line-height: 1;
   color: #2f3250;
   text-decoration: underline 1px solid #4d66ec;
   text-underline-offset: 10px;
