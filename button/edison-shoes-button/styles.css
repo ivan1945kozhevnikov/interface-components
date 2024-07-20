@@ -1,0 +1,58 @@
+.button {
+  display: inline-block;
+  font-family: 'Manrope', sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.7;
+}
+
+.button:active {
+  opacity: 0.5;
+}
+
+.button--primary {
+  color: #fcfcfc;
+  background-color: #4d66ec;
+  border: 1px solid #4d66ec;
+}
+
+.button--outlined {
+  color: #2f3250;
+  background-color: transparent;
+  border: 1px solid #4d66ec;
+}
+
+.button--large {
+  font-size: 16px;
+  padding: 20px 34px;
+}
+
+.button--small {
+  font-size: 14px;
+  padding: 13px 20px;
+}
+
+.link {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  color: #2f3250;
+  text-decoration: underline 1px solid #4d66ec;
+  text-underline-offset: 10px;
+}
+
+.link:hover,
+.link:focus {
+  opacity: 0.7;
+}
+
+.link:active {
+  opacity: 0.5;
+}

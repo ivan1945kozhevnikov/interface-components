@@ -20,8 +20,9 @@
 
 .navigation {
   display: grid;
-  grid-template-columns: repeat(3, min-content);
+  grid-template-columns: auto 1fr auto;
   gap: 65px;
+  align-items: center;
 }
 
 .logo__icon {
@@ -57,7 +58,6 @@
   line-height: 1;
   text-decoration: none;
   color: var(--color-dark);
-  margin: 13px 0 0;
 }
 
 .site-navigation__link--light {
@@ -95,11 +95,10 @@
 
 .user-navigation__link {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   gap: 10px;
   text-decoration: none;
   color: var(--color-dark);
-  margin: 13px 0 0;
 }
 
 .user-navigation__link--light {
@@ -118,7 +117,6 @@
 .user-navigation__icon-avatar {
   position: relative;
   border-radius: 50%;
-  margin: 0 0 0 70px;
   top: -3px;
 }
 
@@ -142,7 +140,7 @@
   text-align: center;
   padding-top: 2px;
   top: 52px;
-  left: 1141px;
+  left: 1148px;
 }
 
 .user-navigation__filled-cart {
@@ -155,5 +153,5 @@
   text-align: center;
   padding-top: 2px;
   top: 52px;
-  left: 1268px;
+  left: 1276px;
 }
