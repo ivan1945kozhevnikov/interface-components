@@ -1,0 +1,145 @@
+.card-product {
+  width: 260px;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 12px;
+  line-height: 1.485;
+  font-weight: 400;
+  background-color: #f8f7fd;
+  padding: 10px;
+}
+
+.card-product__image {
+  margin: 14px 83px;
+}
+
+.card-product__price {
+  font-size: 18px;
+  font-weight: 500;
+  color: #001524;
+  margin: 0 0 10px 0;
+}
+
+.card-product__title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #001524;
+  margin: 0 0 15px 0;
+}
+
+.card-product__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 30px 0;
+}
+
+.card-product__availability {
+  color: #001524;
+  margin: 0 0 0 22px;
+  position: relative;
+}
+
+.card-product__availability::before {
+  position: absolute;
+  content: '';
+  width: 14px;
+  height: 10px;
+  background-image: url(img/ok-arrow.svg);
+  top: 4px;
+  left: -20px;
+}
+
+.card-product__review {
+  display: flex;
+  gap: 10px;
+}
+
+.card-product__rating {
+  font-weight: 500;
+  color: #001524;
+  margin: 0;
+  position: relative;
+}
+
+.card-product__rating::before {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-image: url(img/star-icon.svg);
+  top: 0;
+  left: -20px;
+}
+
+.card-product__link-review {
+  color: #797d80;
+  text-underline-offset: 2px;
+}
+
+.card-product__link-review:hover,
+.card-product__link-review:focus {
+  opacity: 0.7;
+}
+
+.card-product__link-review:active {
+  opacity: 0.5;
+}
+
+.card-product__cart-btn {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #de012c;
+  border-radius: 4px;
+  border-style: none;
+  margin: 0;
+  padding: 7px 50px;
+}
+
+.card-product__cart-btn:hover,
+.card-product__cart-btn:focus {
+  opacity: 0.7;
+}
+
+.card-product__cart-btn:active {
+  opacity: 0.5;
+}
+
+.card-product__site-btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+}
+
+.card-product__btn {
+  display: flex;
+  gap: 20px;
+  margin: 8px 0 0 0;
+}
+
+.card-product__btn-icon {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.card-product__btn-icon:hover,
+.card-product__btn-icon:focus {
+  opacity: 0.7;
+}
+
+.card-product__btn-icon:active {
+  opacity: 0.5;
+}
+
+.card-product__icon-favorites {
+  width: 20px;
+  height: 20px;
+  fill: #797d80;
+}
+
+.card-product__icon-compare {
+  width: 20px;
+  height: 20px;
+  stroke: #797d80;
+}
