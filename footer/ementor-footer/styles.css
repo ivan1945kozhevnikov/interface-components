@@ -1,0 +1,142 @@
+:root {
+  --color-dark: #353a5a;
+}
+
+body {
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+
+.footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.footer__container--decor-line {
+  border-top: 1px solid var(--color-dark);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.footer__information {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-dark);
+  margin: 0 auto;
+  padding: 80px 0 50px 0;
+}
+
+.footer__logotyp {
+  width: 270px;
+}
+
+.logo {
+  display: block;
+  margin: 0 0 27px 0;
+}
+
+.logo__image {
+  width: 170px;
+  height: 22px;
+  fill: var(--color-dark);
+}
+
+.logo__image__fill {
+  fill: #fa9f42;
+}
+
+.footer__description {
+  font-size: 14px;
+  line-height: 1.3;
+  margin: 0 0 47px 0;
+}
+
+.footer__social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social {
+  display: flex;
+  gap: 25px;
+}
+
+.social__icon {
+  width: 22px;
+  height: 22px;
+  fill: var(--color-dark);
+}
+
+.service-navigation {
+  display: flex;
+  gap: 70px;
+}
+
+.service-navigation__category {
+  font-weight: 600;
+  margin: 0 0 31px 0;
+}
+
+.service-navigation__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-navigation__link {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.footer__email {
+  width: 182px;
+}
+
+.footer__email-title {
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+
+.footer__email-feedback {
+  line-height: 1.3;
+  margin: 0;
+}
+
+.footer__email-link {
+  color: var(--color-dark);
+  text-decoration: underline 1px solid var(--color-dark);
+  text-underline-offset: 2px;
+}
+
+.footer__site-info {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-dark);
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer__info-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link {
+  font-size: 14px;
+  color: var(--color-dark);
+  text-decoration: none;
+}
