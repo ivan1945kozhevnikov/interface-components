@@ -11,29 +11,19 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1;
+}
+
+.footer__container--decor-line {
   border-top: 1px solid var(--color-dark);
   border-color: rgba(0, 0, 0, 0.25);
 }
 
-.footer:before {
-  position: absolute;
-  content: ' ';
-  width: 100vw;
-  border-top: 1px solid var(--color-dark);
-  opacity: 0.25;
-  top: 347px;
-  left: 0;
-}
-
-.footer__container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
 .footer__information {
+  max-width: 1170px;
   display: flex;
   justify-content: space-between;
   color: var(--color-dark);
+  margin: 0 auto;
   padding: 80px 0 50px 0;
 }
 
@@ -124,11 +114,12 @@ body {
 }
 
 .footer__site-info {
+  max-width: 1170px;
   display: flex;
   justify-content: space-between;
   color: var(--color-dark);
+  margin: 0 auto;
   padding: 30px 0 0 0;
-  position: relative;
 }
 
 .footer__copyright {
