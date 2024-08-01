@@ -2,6 +2,12 @@
   --color-dark: #001524;
 }
 
+.card-container {
+  display: flex;
+  gap: 30px;
+  padding: 98px;
+}
+
 .card-product {
   width: min-content;
   font-family: 'M PLUS 1p', sans-serif;
@@ -11,6 +17,37 @@
   box-shadow: 0px 4px 15px 0px #9da2a61f;
   background-color: #ffffff;
   padding: 24px 10px 20px;
+  position: relative;
+}
+
+.card-product:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.card-product__promotion {
+  position: absolute;
+  font-size: 10px;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: var(--color-dark);
+  margin: -14px 0 0;
+  padding: 5px 8px;
+}
+
+.card-product--discount {
+  width: 61px;
+  border: 1px solid #fb212f;
+}
+
+.card-product--bestseller {
+  width: 19px;
+  border: 1px solid #8962f8;
+}
+
+.card-product--cashback {
+  width: 61px;
+  border: 1px solid #5ebad9;
 }
 
 .card-product__link {
@@ -19,13 +56,9 @@
   margin: 0 0 24px;
 }
 
-.card-product__link:hover,
-.card-product__link:focus {
-  opacity: 0.7;
-}
-
-.card-product__link:active {
-  opacity: 0.5;
+.card-product__block-price {
+  display: flex;
+  gap: 12px;
 }
 
 .card-product__price {
@@ -34,6 +67,14 @@
   font-weight: 500;
   color: var(--color-dark);
   margin: 0 0 10px;
+}
+
+.card-product__previous-price {
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #797d80;
+  text-decoration: line-through;
+  margin: 3px 0 13px;
 }
 
 .card-product__title {
@@ -50,7 +91,7 @@
 }
 
 .card-product__availability {
-  font-weight: 400;
+  white-space: nowrap;
   color: var(--color-dark);
   margin: 0;
   padding: 0 0 0 22px;
@@ -86,18 +127,25 @@
 }
 
 .card-product__link-to-review {
+  white-space: nowrap;
   color: #797d80;
   text-underline-offset: 2px;
   margin: 0 0 0 10px;
 }
 
-.card-product__link-to-review:hover,
-.card-product__link-to-review:focus {
-  opacity: 0.7;
+.card-product__link-to-review:visited {
+  color: #99a1a7;
 }
 
+.card-product__link-to-review:hover {
+  color: #de012c;
+  transition-duration: 1s;
+}
+
+.card-product__link-to-review:focus,
 .card-product__link-review:active {
-  opacity: 0.5;
+  color: #c20127;
+  transition-duration: 1s;
 }
 
 .card-btn {
@@ -112,26 +160,32 @@
   gap: 20px;
 }
 
-.card-btn:hover,
-.card-btn:focus {
-  opacity: 0.7;
-}
-
-.card-btn:active {
-  opacity: 0.5;
-}
-
 .card-product__cart-btn {
-  width: 170px;
+  max-width: 170px;
   font-family: 'M PLUS 1p', sans-serif;
   font-size: 14px;
   line-height: 1.5em;
   font-weight: 500;
+  white-space: nowrap;
   color: #ffffff;
   background-color: #de012c;
+  border: 1px solid #de012c;
   border-radius: 4px;
   box-sizing: border-box;
   padding: 7px 50px;
+}
+
+.card-product__cart-btn:hover {
+  background-color: #c20127;
+  transition-duration: 1s;
+}
+
+.card-product__cart-btn:focus {
+  border: 1px solid #001524;
+}
+
+.card-product__cart-btn:active {
+  opacity: 0.5;
 }
 
 .card-product__favorites-btn {
@@ -141,9 +195,27 @@
   padding: 0;
 }
 
+.card-product__favorites-btn:hover,
+.card-product__favorites-btn:focus {
+  opacity: 0.7;
+}
+
+.card-product__favorites-btn:active {
+  opacity: 0.5;
+}
+
 .card-product__compare-btn {
   width: 20px;
   height: 20px;
   stroke: #797d80;
   padding: 0;
+}
+
+.card-product__compare-btn:hover,
+.card-product__compare-btn:focus {
+  opacity: 0.7;
+}
+
+.card-product__compare-btn:active {
+  opacity: 0.5;
 }
