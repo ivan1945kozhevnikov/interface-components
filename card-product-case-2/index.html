@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Prosto+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Карточка товара</title>
+  </head>
+  <body>
+    <ul class="card-list-container">
+      <li>
+        <article class="card-product">
+          <a class="card-product__link" href="#">
+            <img
+              class="card-product__img"
+              src="img/photo-1.png"
+              width="266px"
+              height="200px"
+              alt="Набор «Я – доктор»"
+          /></a>
+          <div class="card-product__info">
+            <p class="card-product__article">Артикул: 856935</p>
+            <p class="card-product__rating">4.9</p>
+            <a class="card-product__link-to-review" href="#">19 отзывов</a>
+          </div>
+          <h3 class="card-product__title">Набор «Я – доктор»</h3>
+          <div class="card-product__block">
+            <div class="card-product__block-price">
+              <p class="card-product__price">590 ₽</p>
+            </div>
+            <div class="card-product__block-btn">
+              <button class="card-btn card-product__favorites-btn">
+                <span class="visually-hidden">Добавить в избранное</span>
+                <svg
+                  class="card-icon card-product__favorites-icon"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.81748 17.3781C8.00864 16.2649 6.3259 14.9547 4.79938 13.471C3.72617 12.4025 2.90915 11.0998 2.41089 9.66282C1.51426 6.87525 2.56158 3.68402 5.49258 2.7396C7.03299 2.2437 8.71535 2.52713 10.0134 3.50123C11.3119 2.52831 12.9937 2.24498 14.5342 2.7396C17.4652 3.68402 18.52 6.87525 17.6234 9.66282C17.1252 11.0998 16.3081 12.4025 15.2349 13.471C13.7084 14.9547 12.0257 16.2649 10.2168 17.3781L10.0209 17.5L9.81748 17.3781Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.1327 5.87753C14.0204 6.16112 14.6512 6.95812 14.73 7.89585"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="card-btn card-product__cart-btn">
+                <span class="visually-hidden">Добавить в избранное</span>
+                <svg
+                  class="card-icon card-product__cart-icon"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.28852 16.2328C6.63068 16.2328 6.90879 16.5171 6.90879 16.8669C6.90879 17.2166 6.63068 17.5 6.28852 17.5C5.94636 17.5 5.66907 17.2166 5.66907 16.8669C5.66907 16.5171 5.94636 16.2328 6.28852 16.2328Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.412 16.2328C15.7542 16.2328 16.0323 16.5171 16.0323 16.8669C16.0323 17.2166 15.7542 17.5 15.412 17.5C15.0699 17.5 14.7917 17.2166 14.7917 16.8669C14.7917 16.5171 15.0699 16.2328 15.412 16.2328Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2.5 2.5L4.18648 2.79835L4.96729 12.3067C5.03053 13.0816 5.66377 13.6767 6.42431 13.6767H15.2718C15.9983 13.6767 16.6145 13.1314 16.7191 12.3954L17.4886 6.96039C17.5834 6.28993 17.0751 5.6899 16.4126 5.6899H4.45729"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M11.7233 8.753H13.9716"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="card-product">
+          <p class="card-product__badge card-product__badge--discount">
+            Скидка 50%
+          </p>
+          <a class="card-product__link" href="#">
+            <img
+              class="card-product__img"
+              src="img/photo-2.png"
+              width="266px"
+              height="200px"
+              alt="Деревянная игрушка «Змейка»"
+          /></a>
+          <div class="card-product__info">
+            <p class="card-product__article">Артикул: 894935</p>
+            <p class="card-product__rating">4.8</p>
+            <a class="card-product__link-to-review" href="#">35 отзывов</a>
+          </div>
+          <h3 class="card-product__title card-product__title--size">
+            Деревянная игрушка <br />«Змейка»
+          </h3>
+          <div class="card-product__block">
+            <div class="card-product__block-price">
+              <p class="card-product__price">290 ₽</p>
+              <p class="card-product__previous-price">435 ₽</p>
+            </div>
+            <div class="card-product__block-btn">
+              <button class="card-btn card-product__favorites-btn">
+                <span class="visually-hidden">Добавить в избранное</span>
+                <svg
+                  class="card-icon card-product__favorites-icon"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.81748 17.3781C8.00864 16.2649 6.3259 14.9547 4.79938 13.471C3.72617 12.4025 2.90915 11.0998 2.41089 9.66282C1.51426 6.87525 2.56158 3.68402 5.49258 2.7396C7.03299 2.2437 8.71535 2.52713 10.0134 3.50123C11.3119 2.52831 12.9937 2.24498 14.5342 2.7396C17.4652 3.68402 18.52 6.87525 17.6234 9.66282C17.1252 11.0998 16.3081 12.4025 15.2349 13.471C13.7084 14.9547 12.0257 16.2649 10.2168 17.3781L10.0209 17.5L9.81748 17.3781Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.1327 5.87753C14.0204 6.16112 14.6512 6.95812 14.73 7.89585"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="card-btn card-product__cart-btn">
+                <span class="visually-hidden">Добавить в избранное</span>
+                <svg
+                  class="card-icon card-product__cart-icon"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.28852 16.2328C6.63068 16.2328 6.90879 16.5171 6.90879 16.8669C6.90879 17.2166 6.63068 17.5 6.28852 17.5C5.94636 17.5 5.66907 17.2166 5.66907 16.8669C5.66907 16.5171 5.94636 16.2328 6.28852 16.2328Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.412 16.2328C15.7542 16.2328 16.0323 16.5171 16.0323 16.8669C16.0323 17.2166 15.7542 17.5 15.412 17.5C15.0699 17.5 14.7917 17.2166 14.7917 16.8669C14.7917 16.5171 15.0699 16.2328 15.412 16.2328Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2.5 2.5L4.18648 2.79835L4.96729 12.3067C5.03053 13.0816 5.66377 13.6767 6.42431 13.6767H15.2718C15.9983 13.6767 16.6145 13.1314 16.7191 12.3954L17.4886 6.96039C17.5834 6.28993 17.0751 5.6899 16.4126 5.6899H4.45729"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M11.7233 8.753H13.9716"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="card-product">
+          <p class="card-product__badge card-product__badge--bestseller">Хит</p>
+          <a class="card-product__link" href="#">
+            <img
+              class="card-product__img"
+              src="img/photo-3.png"
+              width="266px"
+              height="200px"
+              alt="Деревянная игрушка неваляшка «Зайчик»"
+          /></a>
+          <div class="card-product__info">
+            <p class="card-product__article">Артикул: 856777</p>
+            <p class="card-product__rating">5.0</p>
+            <a class="card-product__link-to-review" href="#">5 отзывов</a>
+          </div>
+          <h3 class="card-product__title card-product__title--size">
+            Деревянная игрушка <br />
+            неваляшка «Зайчик»
+          </h3>
+          <div class="card-product__block">
+            <div class="card-product__block-price">
+              <p class="card-product__price">490 ₽</p>
+            </div>
+            <div class="card-product__block-btn">
+              <button class="card-btn card-product__favorites-btn">
+                <span class="visually-hidden">Добавить в избранное</span>
+                <svg
+                  class="card-icon card-product__favorites-icon"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.81748 17.3781C8.00864 16.2649 6.3259 14.9547 4.79938 13.471C3.72617 12.4025 2.90915 11.0998 2.41089 9.66282C1.51426 6.87525 2.56158 3.68402 5.49258 2.7396C7.03299 2.2437 8.71535 2.52713 10.0134 3.50123C11.3119 2.52831 12.9937 2.24498 14.5342 2.7396C17.4652 3.68402 18.52 6.87525 17.6234 9.66282C17.1252 11.0998 16.3081 12.4025 15.2349 13.471C13.7084 14.9547 12.0257 16.2649 10.2168 17.3781L10.0209 17.5L9.81748 17.3781Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.1327 5.87753C14.0204 6.16112 14.6512 6.95812 14.73 7.89585"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="card-btn card-product__cart-btn">
+                <span class="visually-hidden">Добавить в избранное</span>
+                <svg
+                  class="card-icon card-product__cart-icon"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.28852 16.2328C6.63068 16.2328 6.90879 16.5171 6.90879 16.8669C6.90879 17.2166 6.63068 17.5 6.28852 17.5C5.94636 17.5 5.66907 17.2166 5.66907 16.8669C5.66907 16.5171 5.94636 16.2328 6.28852 16.2328Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.412 16.2328C15.7542 16.2328 16.0323 16.5171 16.0323 16.8669C16.0323 17.2166 15.7542 17.5 15.412 17.5C15.0699 17.5 14.7917 17.2166 14.7917 16.8669C14.7917 16.5171 15.0699 16.2328 15.412 16.2328Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2.5 2.5L4.18648 2.79835L4.96729 12.3067C5.03053 13.0816 5.66377 13.6767 6.42431 13.6767H15.2718C15.9983 13.6767 16.6145 13.1314 16.7191 12.3954L17.4886 6.96039C17.5834 6.28993 17.0751 5.6899 16.4126 5.6899H4.45729"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M11.7233 8.753H13.9716"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article class="card-product">
+          <p class="card-product__badge card-product__badge--new">Новинка</p>
+          <a class="card-product__link" href="#">
+            <img
+              class="card-product__img"
+              src="img/photo-4.png"
+              width="266px"
+              height="200px"
+              alt="Мягкая игрушка «Овечка»"
+          /></a>
+          <div class="card-product__info">
+            <p class="card-product__article">Артикул: 899935</p>
+            <p class="card-product__rating">5.0</p>
+            <a class="card-product__link-to-review" href="#">5 отзывов</a>
+          </div>
+          <h3 class="card-product__title">Мягкая игрушка «Овечка»</h3>
+          <div class="card-product__block">
+            <p class="card-product__price">690 ₽</p>
+            <div class="card-product__block-btn">
+              <button class="card-btn card-product__favorites-btn">
+                <span class="visually-hidden">Добавить в избранное</span>
+                <svg
+                  class="card-icon card-product__favorites-icon"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.81748 17.3781C8.00864 16.2649 6.3259 14.9547 4.79938 13.471C3.72617 12.4025 2.90915 11.0998 2.41089 9.66282C1.51426 6.87525 2.56158 3.68402 5.49258 2.7396C7.03299 2.2437 8.71535 2.52713 10.0134 3.50123C11.3119 2.52831 12.9937 2.24498 14.5342 2.7396C17.4652 3.68402 18.52 6.87525 17.6234 9.66282C17.1252 11.0998 16.3081 12.4025 15.2349 13.471C13.7084 14.9547 12.0257 16.2649 10.2168 17.3781L10.0209 17.5L9.81748 17.3781Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.1327 5.87753C14.0204 6.16112 14.6512 6.95812 14.73 7.89585"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="card-btn card-product__cart-btn">
+                <span class="visually-hidden">Добавить в избранное</span>
+                <svg
+                  class="card-icon card-product__cart-icon"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.28852 16.2328C6.63068 16.2328 6.90879 16.5171 6.90879 16.8669C6.90879 17.2166 6.63068 17.5 6.28852 17.5C5.94636 17.5 5.66907 17.2166 5.66907 16.8669C5.66907 16.5171 5.94636 16.2328 6.28852 16.2328Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.412 16.2328C15.7542 16.2328 16.0323 16.5171 16.0323 16.8669C16.0323 17.2166 15.7542 17.5 15.412 17.5C15.0699 17.5 14.7917 17.2166 14.7917 16.8669C14.7917 16.5171 15.0699 16.2328 15.412 16.2328Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2.5 2.5L4.18648 2.79835L4.96729 12.3067C5.03053 13.0816 5.66377 13.6767 6.42431 13.6767H15.2718C15.9983 13.6767 16.6145 13.1314 16.7191 12.3954L17.4886 6.96039C17.5834 6.28993 17.0751 5.6899 16.4126 5.6899H4.45729"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M11.7233 8.753H13.9716"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </body>
+</html>
