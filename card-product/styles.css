@@ -7,6 +7,7 @@
   justify-content: center;
   gap: 30px;
   list-style: none;
+  margin: 0;
   padding: 98px;
 }
 
@@ -18,7 +19,7 @@
   font-weight: 400;
   box-shadow: 0px 4px 15px 0px #9da2a61f;
   transition: all 0.5s ease-in-out;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 1);
   padding: 24px 10px 20px;
   position: relative;
 }
